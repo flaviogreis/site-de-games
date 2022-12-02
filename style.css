@@ -1,0 +1,93 @@
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+
+.form-control{
+    max-width: 240px;
+}
+
+.navbar-nav .nav-link.active{
+    color: black;
+}
+
+
+.primeira-sessão{
+    background-color: rgba(226, 226, 226, 0.575);
+}
+
+#destaque{
+    font-weight: 700;
+    
+}
+
+.pagination2{
+    color: rgb(145, 144, 144);
+}
+.pagination2, .pagination1{
+    font-size: 11px;
+    
+}
+.selBg{
+    background-color:  rgba(112, 119, 134, 0.13);
+}
+
+.select{
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.option {
+    padding: 100px;
+}
+.btn-secondary{
+    background-color:#575c61;
+}
+
+.sessão-published{
+    background-color:rgba(226, 226, 226, 0.575) ;
+}
+
+.editoral{
+    width: 30%;
+    min-width: 200px;
+}
+.sobre{
+    width: 70%;
+    min-width:200px;
+}
+
+footer{
+    background-color:rgba(226, 226, 226, 0.575) ;
+}
+
+@media (max-width:425px) {
+    .youtube{
+        width: 100% !important;
+        margin: auto !important;
+    }
+    .nav-lancamentos{
+        display: block !important;
+        justify-content: center !important;
+    
+    }
+    .selects-lancamentos{
+        justify-content: left !important;
+    }
+    
+    .games-list{
+        justify-content: center !important;
+    }
+}
+@media (max-width:600px) {
+    .games-list{
+        justify-content: center !important;
+    }
+}
+img{
+    height: 185px;
+    width: 250px;
+}
+
